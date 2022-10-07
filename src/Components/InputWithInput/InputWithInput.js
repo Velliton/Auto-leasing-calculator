@@ -29,6 +29,7 @@ export const InputWithInput = ({
                     readOnly
                 />
                 <span className="lizing__currencyf">{postfix}</span>
+                
                 <input
                     className="lizing__input-in"
                     type="text"
@@ -40,6 +41,7 @@ export const InputWithInput = ({
                     onBlur={onBlur}
                     onKeyDown={onSecondInputKeyDown}
                 />
+                
                 <span className="lizing__currency">{postfixSecond}</span>
                 <input
                     className="lizing__range"    

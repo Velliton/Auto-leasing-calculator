@@ -184,15 +184,16 @@ export default function UserForm() {
         <div className="lizing__footer">
           <div className="lizing__payment">
             <p className="lizing__title">Cумма договора лизинга</p>
-            <p className="lizing__sum">{sumContractRounded} <span className="lizing_sumspan">&#8381;</span></p>
+            <p className="lizing__sum">{sumContractRounded}<span className="lizing_sumspan">&#8381;</span></p>
+            
           </div>
 
           <div className="lizing__payment">
             <p className="lizing__title">Ежемесячный платёж от</p>
             <p className="lizing__sum">{perMonthPaymentRounded}<span className="lizing_sumspan">&#8381;</span></p>
           </div>
-          <div>
-          <button className="lizing__btn" >{isLoading ? <Loader/>: "Оставить заявку" }</button>
+          <div className="lizing__button">
+            <button className="lizing__btn" >{isLoading ? <Loader/>: "Оставить заявку" }</button>
           </div>
         </div> 
         
@@ -200,12 +201,12 @@ export default function UserForm() {
         
       </form>
 
-     {/*  <div className="cont">
+       {/* <div className="cont">
         <input className="lizing__input1" type="text" value="777"></input>
         <span className="txt">111</span>
         <input className="lizing__input2" type="text"></input>
-        <span className="txt2">777</span>
-      </div> */}
+        <span className="txt2">sdasdas</span>
+      </div>  */}
       
 
     </div>
