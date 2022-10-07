@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Nekst';
+    src: local('Nekst Regular'), local('Nekst-Regular'),
+        url('Nekst-Regular.woff2') format('woff2'),
+        url('Nekst-Regular.woff') format('woff'),
+        url('Nekst-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+const handleOnBlurPersent = (e) => {
+    const {target} = e;
+    let {name, value} = target;
+
+    if (name === "initialPercent") {
+      if (parseFloat(value) > 100) {
+        value = 100;
+      }
+      
+     }
+
+{/* <div className="lizing__item">
+          <label className="lizing__title">Первоначальный взнос</label>
+          <input
+            className="lizing__input"
+            type="number"
+            placeholder="взнос"
+            value={initialVal}
+            readOnly
+          />
+          
+          <p>&#8381;</p>
+          <input
+            className="lizing__input"
+            type="number"
+            name="initialPercent"
+            value={initialPercent}
+            onChange={handleChange}
+         />
+          <p>%</p>
+          <input
+            className="lizing__range"    
+            type="range"
+            name="initialPercent"
+            min="10"
+            max="60"
+            value={initialPercent}
+            onChange={handleChange}
+          />
+        </div> */}
