@@ -13,15 +13,19 @@ export const InputWithRange = ({
     max,
     onBlur,
     onChange,
+    isLoading,
+  
     })=>{
 
-    return <div className="lizing__item">
-        <label className="lizing__title" >{title}</label>
+    return <div className={isLoading?"leasing__item leasing__item-disabled":"leasing__item"}>
+        <label className="leasing__title" >{title}</label>
         
         
-            <input 
-                
-                className="lizing__input"
+            <input   
+                disabled={isLoading}             
+                min={min}
+                max={max}
+                className="leasing__input"
                 type="text"
                 maxLength="7"
                 name={name}
@@ -30,11 +34,12 @@ export const InputWithRange = ({
                 onBlur={onBlur}
                 onChange={onChange}
             />
-            <span className="lizing__currency">{postfix}</span>
+            <span className="leasing__currency">{postfix}</span>
         
         
         <input
-            className="lizing__range"
+            disabled={isLoading}
+            className="leasing__range"
             type="range"
             name={name}
             min={min}

@@ -1,11 +1,10 @@
-import Item from "./Components/Item";
 import React from 'react';
 
-import UserForm from "./Components/UserForm";
+import LeasingForm from "./Components/LeasingForm/LeasingForm";
 function App() {
   return (    
     <div className="wrapper">
-      <UserForm/>   
+      <LeasingForm/>   
     </div>
   );
 }

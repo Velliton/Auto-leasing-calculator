@@ -15,23 +15,26 @@ export const InputWithInput = ({
     max,
     onChange,
     onSecondInputKeyDown,
-    onBlur
+    onBlur,
+    isLoading
 })=>{
 
-    return <div className="lizing__item">
-            <label className="lizing__title">{title}</label>
-                <input   
-                    className="lizing__input"
+    return <div className={isLoading?"leasing__item leasing__item-disabled":"leasing__item"}>
+            <label className="leasing__title">{title}</label>
+                <input
+                    disabled={isLoading} 
+                    className="leasing__input"
                     name={nameFirst}
                     type="number"
                     placeholder="взнос"
                     value={valueFirst}
                     readOnly
                 />
-                <span className="lizing__currencyf">{postfix}</span>
+                <span className="leasing__currencyf">{postfix}</span>
                 
                 <input
-                    className="lizing__input-in"
+                    disabled={isLoading}
+                    className="leasing__input-in"
                     type="text"
                     maxLength="2"
                     name={nameSecond}
@@ -42,9 +45,10 @@ export const InputWithInput = ({
                     onKeyDown={onSecondInputKeyDown}
                 />
                 
-                <span className="lizing__currency">{postfixSecond}</span>
+                <span className="leasing__currency">{postfixSecond}</span>
                 <input
-                    className="lizing__range"    
+                    disabled={isLoading}
+                    className="leasing__range"    
                     type="range"
                     name={nameRange}
                     min={min}

@@ -1,0 +1,115 @@
+@media screen and (max-width: 321px) {
+    .leasing{
+        &__input-in{
+            width:20%;
+            height: 48px;
+            background: #E0E0E0;
+            border-radius: 12px;
+            position: absolute;
+            font-family: 'Nekst';
+            font-weight: 900;
+            font-size: 22px;
+            line-height: 20px;
+            padding: 8px;
+            top: 32px;
+            right: 15px;
+        }
+        &__currencyf{
+            position: absolute;
+            left: 140px;
+            top: 44px;
+            font-family: 'Nekst';
+            font-weight: 900;
+            font-size: 22px;
+            line-height: 20px;
+        }
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 768px){
+    .leasing{
+        &__input-in{
+            &:active{
+                background: rgb(247, 245, 245);  
+                border: 1px solid gainsboro;
+            }
+            max-width:23%;
+            min-width: 8%;
+            background: #E0E0E0;
+            border-radius: 12px;
+            position: absolute;
+            font-family: 'Nekst';
+            font-weight: 900;
+            font-size: 20px;
+            line-height: 24px;
+            padding: 15px;
+            top: 45%;
+            left: 69%;
+        }
+        &__currencyf{
+            position: absolute;
+            left: 190px;
+            top: 63px;
+            font-family: 'Nekst';
+            font-weight: 900;
+            font-size: 30px;
+            line-height: 20px;
+            color: #575757;
+        }
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .leasing{
+        &__input-in{
+            max-width:10%;
+            background: #E0E0E0;
+            border-radius: 12px;
+            position: absolute;
+            font-family: 'Nekst';
+            font-weight: 900;
+            font-size: 30px;
+            line-height: 24px;
+            padding: 8px;
+            top: 51px;
+            right: 15px;
+        }
+        &__currencyf{
+            position: absolute;
+            left: 190px;
+            top: 64px;
+            font-family: 'Nekst';
+            font-weight: 900;
+            font-size: 30px;
+            line-height: 20px;
+            color: #575757;
+        }
+    }
+}
+@media screen and (min-width: 1024px){
+    .leasing{
+        &__input-in{
+            position: absolute;
+            max-width: 18%;
+            background: #E0E0E0;
+            color: #575757;
+            border-radius: 16px;
+            position: absolute;
+            font-family: 'Nekst';
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 24px;
+            padding: 4px;
+            top: 59px;
+            right: 6px;
+        }
+        &__currencyf{
+            position: absolute;
+            left: 200px;
+            top: 64px;
+            font-family: 'Nekst';
+            font-weight: 900;
+            font-size: 30px;
+            line-height: 20px;
+            color: #575757;
+        }
+    }
+}
