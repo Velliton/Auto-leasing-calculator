@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Auto-leasing-calculator/static/css/main.5b03d0df.css",
-    "main.js": "/Auto-leasing-calculator/static/js/main.209a3695.js",
+    "main.css": "/Auto-leasing-calculator/static/css/main.9e766da7.css",
+    "main.js": "/Auto-leasing-calculator/static/js/main.94541f82.js",
     "static/media/Nekst-Regular.ttf": "/Auto-leasing-calculator/static/media/Nekst-Regular.ec8e40c2d276f13999f7.ttf",
     "static/media/Gilroy-Regular.ttf": "/Auto-leasing-calculator/static/media/Gilroy-Regular.fa652e766b6a85a1f9cb.ttf",
     "static/media/Nekst-Regular.woff": "/Auto-leasing-calculator/static/media/Nekst-Regular.4d8de93b27c5bd7e1f9b.woff",
@@ -10,11 +10,11 @@
     "static/media/Gilroy-Regular.woff2": "/Auto-leasing-calculator/static/media/Gilroy-Regular.f6c9931fabe5a6eb3307.woff2",
     "index.html": "/Auto-leasing-calculator/index.html",
     "static/media/loader.svg": "/Auto-leasing-calculator/static/media/loader.4e82ac858606a43fa04f9de824dc3dc3.svg",
-    "main.5b03d0df.css.map": "/Auto-leasing-calculator/static/css/main.5b03d0df.css.map",
-    "main.209a3695.js.map": "/Auto-leasing-calculator/static/js/main.209a3695.js.map"
+    "main.9e766da7.css.map": "/Auto-leasing-calculator/static/css/main.9e766da7.css.map",
+    "main.94541f82.js.map": "/Auto-leasing-calculator/static/js/main.94541f82.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b03d0df.css",
-    "static/js/main.209a3695.js"
+    "static/css/main.9e766da7.css",
+    "static/js/main.94541f82.js"
   ]
 }
