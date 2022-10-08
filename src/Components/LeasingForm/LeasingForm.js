@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
-
+import "./LeasingForm.scss";
 import {ReactComponent as LoaderIcon} from "../../assets/loader.svg"
 
 import {InputWithRange} from "../InputWithRange"

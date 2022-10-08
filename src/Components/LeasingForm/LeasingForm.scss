@@ -1,0 +1,283 @@
+@media screen and (max-width: 320px) {
+    .wrapper{
+        max-width: 320px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .leasing{
+        display: flex;
+        flex-direction: column;
+        &__name{
+            font-family: 'Nekst';
+            font-weight: 900;
+            font-size: 34px;
+            line-height: 90%;
+            margin: 44px 20px 16px 21px;
+            max-width: 279px;
+        }
+        &__content{
+            display: flex;
+            flex-direction: column;
+            margin: 16px 20px 0px 20px;
+            min-width: 250px;
+        }
+        &__footer{
+            margin: 8px 20px 16px 20px; 
+            display: flex;
+            flex-direction: column;
+            min-width: 250px;
+        }
+        &__payment{
+            max-width: 167px;
+            margin-bottom: 29px;
+        }
+        &__sum{
+            font-family: 'Nekst';
+            font-weight: 900;
+            font-size: 22px;
+            line-height: 20px;
+        }
+        &__btn{
+            font-family: 'Nekst';
+            font-weight: 900;
+            font-size: 22px;
+            line-height: 20px;
+            color: #FFFFFF;
+            max-width: 280px;
+            height: 60px;
+            background: #FF9514;
+            border-radius: 40px;
+            padding: 9px 40px 20px 40px;
+            &-disabled{
+                background: rgba(255, 149, 20, 0.4);
+            }
+        }
+        
+    }
+ 
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px){
+    .wrapper{
+        max-width: 768px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .leasing{
+        &__name{
+            font-family: 'Nekst';
+            font-weight: 900;
+            font-size: 54px;
+            line-height: 90%;
+            margin: 64px 36px 22px 36px;
+        }
+        &__content{
+            display: flex;
+            flex-direction: column;
+            margin: 22px 36px 9px 36px;
+        }
+        &__footer{
+            margin: 9px 36px 60px 36px; 
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        }
+        &__payment{
+            min-width: 300px;
+            margin-bottom: 44px;
+            margin-right: 85px;
+        }
+        &__sum{
+            font-family: 'Nekst';
+            font-weight: 900;
+            font-size: 54px;
+            line-height: 20px;
+            font-size: 54px;
+            line-height: 48,6px;
+            color: #333333;
+        }
+        &_sumspan{
+            position: relative;
+            bottom:5px;
+            left:5px;
+        }
+        &__btn{
+            font-family: 'Nekst';
+            font-weight: 900;
+            font-size: 30px;
+            line-height: 36px;
+            color: #FFFFFF;
+            max-width: 345px;
+            min-width: 320px;
+            height: 68px;
+            background: #FF9514;
+            border-radius: 40px;
+            padding: 9px 20px 20px 20px;
+            &-disabled{
+                background: rgba(255, 149, 20, 0.4);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .wrapper{
+        max-width: 1024;
+        margin: 0 auto;
+    }
+    .leasing{
+        &__name{
+            font-family: 'Nekst';
+            font-weight: 900;
+            font-size: 54px;
+            line-height: 90%;
+            margin: 100px 0px 22px 48px;
+        }
+        &__content{
+            display: flex;
+            flex-direction: column;
+            margin: 22px 48px 5px 48px;
+        }
+        &__footer{
+            margin: 5px 48px 0px 48px; 
+            display: flex;
+            flex-wrap: wrap;
+        }
+        &__payment{
+            max-width: 400px;
+            min-width: 360px;
+            margin-bottom: 44px;
+            margin-right: 50px;
+        }
+        &__sum{
+            font-family: 'Nekst';
+            font-weight: 900;
+            font-size: 54px;
+            line-height: 20px;
+            font-size: 54px;
+            line-height: 48.6px;
+            color: #333333;
+        }
+        &_sumspan{
+            position: relative;
+            bottom:5px;
+            left:5px;
+        }
+        &__button{
+            max-width: 500px;
+        }
+        &__btn{
+            font-family: 'Nekst';
+            font-weight: 900;
+            font-size: 30px;
+            line-height: 36px;
+            color: #FFFFFF;
+            max-width: 345px;
+            height: 68px;
+            background: #FF9514;
+            border-radius: 40px;
+            padding: 9px 40px 20px 40px;
+            align-items: center;
+            &-disabled{
+                background: rgba(255, 149, 20, 0.4);
+            }
+        }
+    }
+}
+@media screen and (min-width: 1025px){
+    .wrapper{
+        max-width: 1440px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .leasing{
+        display: flex;
+        flex-direction: column;
+        &__name{
+            font-family: 'Nekst';
+            font-weight: 900;
+            font-size: 54px;
+            line-height: 48,6;
+            margin: 213px 0px 16px 47px;
+            max-width: 753px;
+        }
+        &__content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            margin: 16px 47px 22px 47px;
+        }
+        &__footer{
+            margin: 22px 48px 0px 48px; 
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        &__payment{
+            max-width: 400px;
+            min-width: 350px;
+            margin-bottom: 44px;
+            margin-right: 50px;
+        }
+        &__button{
+            max-width: 426px;
+            height: 68px;
+            min-width: 250px;
+        }
+        &__sum{
+            width: 100%;
+            font-family: 'Nekst';
+            font-weight: 900;
+            font-size: 54px;
+            line-height: 48.6px;
+            color: #333333;
+            position: relative;
+        }
+        &_sumspan{
+            position: relative;
+            bottom:5px;
+            left:5px;
+        }
+        &__btn{
+            max-width: 426px;
+            max-height: 68px;
+            background: #FF9514;
+            border-radius: 40px;
+            font-family: 'Nekst-Black';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 30px;
+            line-height: 36px;
+            color: #FFFFFF;
+            padding: 14px 80px 18px 80px;  
+            &-disabled{
+                background: rgba(255, 149, 20, 0.4);
+            }
+        }
+    }
+}
+
+
+button:hover{
+    background: #111111;
+} 
+button:active{
+    background: #575757;
+} 
+.spin {
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    min-width: 210px;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

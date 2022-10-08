@@ -1,4 +1,4 @@
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 320px) {
     .leasing{
         &__input-in{
             width:20%;
@@ -57,7 +57,7 @@
         }
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 769px) and (max-width: 1024px){
     .leasing{
         &__input-in{
             max-width:10%;
@@ -84,7 +84,7 @@
         }
     }
 }
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1025px){
     .leasing{
         &__input-in{
             position: absolute;
